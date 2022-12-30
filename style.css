@@ -1,0 +1,532 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-image: url(img1.png);
+    background-size: cover;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+.ul1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 600px;
+}
+.ul1 li{
+    color: white;
+    list-style-type: none;
+}
+header{
+    background-image: url(img2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+}
+.divImg3{
+    display: flex;
+    flex-direction: column;
+}
+.divImg3 img{
+    width: 50px;
+    height: 10px;
+    margin: 2px;
+}
+.img4{
+    width: 10px;
+    height: 8px;
+}
+.allH3{
+    color: white;
+}
+.divImg4{
+    background-color: rgb(43, 43, 43);
+    border-radius: 5px;
+    display: flex;
+    width: 150px;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.input1{
+    width: 400px;
+    height: 40px;
+    border: 0;
+}
+.divImg5{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divInpAndImg5{
+    display: flex;
+}
+.img5{
+    width: 20px;
+    height: 20px;
+}
+.bigDivHeader1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+}
+.smallDivHeader2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 790px;
+}
+.elfyerH1{
+    font-size: 50px;
+    color: white;
+}
+.img6{
+    width: 20px;
+    height: 15px;
+}
+.divEnglish{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 150px;
+    justify-content: space-evenly;
+}
+.img7{
+    width: 15x;
+    height: 20px;
+}
+.divImg8{
+    display: flex;
+}
+.img8{
+    width: 20px;
+    height: 15px;
+}
+.img9{
+    width:15px;
+    height: 20px;
+}
+.cartH3{
+    color: white;
+}
+.loginH3{
+    color: white;
+}
+.divImg9{
+    display: flex;
+}
+.smallDivHeader3{
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.divElfyerH1{
+    height: 100px;
+    display: flex;align-items: center;
+}
+.bigDivHeader2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    align-items: center;
+}
+.button1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(224, 224, 224, 0.562);
+    border: 0;
+}
+.button2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(224, 224, 224, 0.562);
+    border: 0;
+}
+.getH1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.smallDivHeader4{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items:flex-end;
+}
+.buyButton{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border-radius: 7px;
+    border: 0;
+}
+.divBuyButton{
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+.sectionSmallDiv1{
+    width: 300px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 15px rgb(54, 54, 54));
+}
+.img10{
+    width: 230px;
+    height: 300px;
+}
+.priceH6{
+    color: orangered;
+    margin-right: 5px;
+}
+.divH6s{
+    display: flex;
+    justify-content: center;
+}
+.divH5s{
+    display: flex;
+    justify-content: space-around;
+}
+.divImg10{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.manH5{
+    text-align: center
+}
+.buyH5{
+    color: orangered;
+}
+.img12{
+    width: 180px;
+    height: 300px;
+}
+.bigDiv2{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.button3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(43, 43, 43) ;
+    color: white;
+    border: 0;
+    margin-right: 10px;
+}
+.button4{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(43, 43, 43) ;
+    color: white;
+    border: 0;
+    margin-left: 10px;
+}
+.divButtons{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.electronicH1{
+    text-align: center;
+    font-size: 30px;
+}
+.divElectH1{
+    height: 70px;
+}
+.img13{
+    width: 250px;
+    height: 170px;
+}
+.img15{
+    width: 200px;
+    height: 200px;
+}
+.bigDiv3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.img19{
+    width: 100px;
+    height: 100px;
+}
+.divImg19{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+footer{
+    background-color:rgb(43, 43, 43)  ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+.ul2{
+    display: flex;
+}
+.ul2 li{
+    color: white;
+    margin: 15px;
+    list-style-type: none;
+}
+hr{
+    width: 700px;
+}
+.hello1{
+    color: white;
+}
+.hello2{
+    color: orangered;
+}
+.hello3{
+    color: white;
+}
+.hello4{
+    color: white;
+}
+.divHello12{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+.divElfyer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.divHello4{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.p{
+    background-color: orangered;
+}
+.img2{
+    background-image: url(img2.png);
+}
+.img1{
+    background-image: url(caruselimg1.webp);
+}
+.img3{
+    background-image: url(caruselimg2.jpeg);
+} 
+.hello5{
+    display: none;
+}
+.hello6{
+    display: none;
+}
+.hello7{
+    display: none;
+}
+.hello8{
+    width: 230px;
+    display: none;
+}
+.bigDivSection1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bigDivSection2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bigDivSection3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hardDiv1{
+    display: flex;
+    justify-content: space-around;
+}
+.hardDiv2{
+    display: flex;
+    justify-content: space-around;
+}
+.end1{
+    width: 250px;
+    height: 150px;
+}
+.img20{
+    width: 200px;
+    height: 200px;
+}
+.img21{
+    width: 200px;
+    height: 250px;
+}
+.bigDiv4{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.p{
+    background-color: orangered;
+}
+@media screen and (max-width: 1100px) {
+    .bigDivHeader1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    .smallDivHeader2{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .divImg3{
+        margin: 10px;
+    }
+    .divInpAndImg5{
+        margin: 10px;
+    }
+    .divImg4{
+        margin: 10px;
+    }
+    .divEnglish{
+        margin: 10px;
+    }
+    .bigDiv3{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        height: 1000px;
+    }
+    .bigDiv2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sectionSmallDiv1{
+        margin: 25px;
+        width: 250px;
+        height: 400px;
+    }
+    .img10{
+        width: 150px;
+        height: 200px;
+    }
+    .img12{
+        width: 150px;
+        height: 250px;
+    }
+    .img13{
+        width: 230px;
+        height: 150px;
+    }
+    .img15{
+        width: 180px;
+        height: 180px;
+    }
+    .hardDiv1{
+        flex-direction: column;
+    }
+    .hardDiv2{
+        flex-direction: column;
+    }
+    .bigDiv4{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:920px) {
+    .ul1{
+        flex-direction: column;
+        height: 200px;
+    }
+    .ul1 li{
+        margin: 5px;
+    }
+    nav{
+        width: 500px;
+        height: 200px;
+        background-size: 100% 100%;
+    }
+    header{
+        height: 1400px;
+    }
+    hr{
+        width: 540px;
+    }
+    .divHello12{
+        width: 540px;
+    }
+}
+@media screen and (max-width:610px) {
+    .smallDivHeader4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        height: 1300px;
+    }
+    .bigDivHeader2{
+        height: 400px;
+    }
+    .manH1{
+        text-align: center;
+    }
+    nav{
+        width: 80%;
+    }
+    .input1{
+        width: 200px;
+    }
+    .ul2{
+        flex-direction: column;
+    }
+    .ul2 li{
+        text-align: center;
+    }
+    hr{
+        width: 270px;
+    }
+    .divHello12{
+        width: 270px;
+    }
+    .hello4{
+        text-align: center;
+    }
+    footer{
+        height: 400px;
+    }
+}
